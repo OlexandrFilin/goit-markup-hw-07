@@ -94,6 +94,29 @@
       <path d="m32 2.667-32 15 10.227 3.156L26 8.5 14.002 21.988l.01.003-.012-.003v7.345l5.735-5.576L27 25.999l5-23.333z"/>
     </symbol>
 
+<symbol id="hamburger" viewBox="0 0 47 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.3636" 
+d="M1.96 29.154h42.965M1.96 15.615h42.965M1.96 2.077h42.965"></path>
+</symbol>
+
+<!-- <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle opacity="0.1" cx="12" cy="12" r="11.5" fill="#E7E9FC" stroke="#2E2F42"/>
+<g clip-path="url(#clip0_297053_2165)">
+<path d="M16 8.80571L15.1943 8L12 11.1943L8.80571 8L8 8.80571L11.1943 12L8 15.1943L8.80571 16L12 12.8057L15.1943 16L16 15.1943L12.8057 12L16 8.80571Z" fill="#2E2F42"/>
+</g>
+<defs>
+<clipPath id="clip0_297053_2165">
+<rect width="8" height="8" fill="white" transform="translate(8 8)"/>
+</clipPath>
+</defs>
+</svg> -->
+
+<symbol id="close-mobmenu" viewBox="0 0 32 32">
+<path fill="#e7e9fc" style="fill: var(--color1, #e7e9fc); stroke: var(--color2, #2e2f42)" opacity="0.1" stroke="#2e2f42" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.3333" d="M31.333 16c0 8.468-6.865 15.333-15.333 15.333s-15.333-6.865-15.333-15.333c0-8.468 6.865-15.333 15.333-15.333s15.333 6.865 15.333 15.333z"></path>
+<path fill="#2e2f42" style="fill: var(--color2, #2e2f42)" d="M21.333 11.741l-1.074-1.074-4.259 4.259-4.259-4.259-1.074 1.074 4.259 4.259-4.259 4.259 1.074 1.074 4.259-4.259 4.259 4.259 1.074-1.074-4.259-4.259 4.259-4.259z"></path>
+</symbol>
+
+
     <symbol id="close" viewBox="0 0 32 32">
       <path stroke-width="1.333" d="M31.333 16c0 8.468-6.865 15.333-15.333 15.333S.667 24.468.667 16 7.532.667 16 .667 31.333 7.532 31.333 16z"/>
       <path stroke-width="1.333" d="m16.603 16.471 3.788 3.788-.131.131-4.259-4.259-4.259 4.259-.131-.131L15.87 16l-4.259-4.259.131-.131 4.259 4.259 4.259-4.259.131.131L16.132 16l.471.471z"/>
