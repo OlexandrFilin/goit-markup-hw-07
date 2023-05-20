@@ -40,11 +40,6 @@
   /* NaviBlu#2e2f42; */
   --background-color-btn-close-activ: #2e2f42;
   --backgroun-modal: #fcfcfc;
-  /* количество отступов в флексах */
-  --indents-amount: 1;
-
-  --indents-gorizont: 24px;
-  --indents-vertic: 72px;
 
   --anim-fast: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   --anim-slow: 1250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -90,32 +85,11 @@ body {
   margin: 0;
 }
 .container {
-  min-width: 320px;
-  max-width: 396px;
-  /* max-width: 396px;; */
-  padding: 0;
+  max-width: 1158px;
+  min-width: 1128px;
+  padding: 0 15px 0 15px;
   margin: 0 auto;
-  outline: 1px solid blue;
 }
-
-@media only screen and (min-width: 768px) {
-  .container {
-    max-width: 736px;
-    /* min-width: 736px;   */
-    /* width: 736px; */
-    outline: 1px solid red;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1158px;
-    min-width: 1128px;
-    padding: 0 15px 0 15px;
-    outline: 1px solid green;
-  }
-}
-
 .visually-hidden {
   /*cкриваємо правильно заголовки*/
   position: absolute;
@@ -143,7 +117,6 @@ body {
 }
 /* -----------------------------------------------heder -----------------------------------------------------*/
 .header {
-  display: none;
   z-index: var(--header-idx);
   height: 72px;
   border-bottom: 1px solid var(--color-border-hader);
@@ -268,7 +241,6 @@ nav {
 
 /* -----------------------main (hero) -----------------------------------------------------*/
 .hero {
-  display: none;
   background-color: var(--background-color-hero);
   max-width: 1440px;
   height: 600px;
@@ -340,6 +312,13 @@ nav {
 .btn-hero:focus {
   background-color: var(--background-color-btn-hero-active);
 }
+/* --------------------------section2 Features---------------------------------- */
+.about {
+  padding: 120px 0;
+}
+.div-about {
+}
+
 .header-two {
   color: var(--header-color);
   font-weight: 700;
@@ -349,43 +328,8 @@ nav {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-/* --------------------------section2 Features---------------------------------- */
-.about {
-  /* padding: 120px 0; */
-  padding-top: 96px;
-}
-.div-about {
-}
-
-.hed-sec-two {
-}
-.header-three-stwoo {
-  text-align: center;
-  margin-bottom: 8px;
-  /* #2e2f42; NAVY BLUE */
-  color: var(--header-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-}
-@media only screen and (min-width: 768px) {
-  .header-three-stwoo {
-    text-align: left;
-  }
-}
-
-@media only screen and (min-width: 1440px) {
-  .header-three-stwoo {
-    /* height: 24px; */
-
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-  }
-}
 .header-three {
-  /* height: 24px; */
+  height: 24px;
   margin-bottom: 8px;
   color: var(--header-color);
   font-weight: 500;
@@ -395,64 +339,33 @@ nav {
 }
 .list-about {
   display: flex;
-  flex-wrap: wrap;
-  row-gap: 72px;
-  column-gap: 24px;
-
-  width: 100%;
 }
 .about-item {
-  /* calc((100% - кіль-сть_відступів_в_рядку * довжина_одного_відступу_в_рядку) / кіль-сть_елементів_в_рядку) */
-
-  width: calc(
-    (100% - (var(--indents-amount) - 1) * var(--indents-gorizont)) /
-      var(--indents-amount)
-  );
-  /* width: 264px; */
-  /* padding-bottom: 72px; */
-}
-@media only screen and (min-width: 768px) {
-  .about-item {
-    --indents-amount: 2;
-  }
-}
-@media only screen and (min-width: 1440px) {
-  .about-item {
-    --indents-amount: 4;
-  }
+  width: 264px;
 }
 .about_item-icon-div {
-  display: none;
-  /* */
+  display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--logocolor-right-footer);
   border-radius: 4px;
   height: 112px;
   margin-bottom: 8px;
-  row-gap: 72px;
-  column-gap: 24px;
-}
-@media only screen and (min-width: 1440px) {
-  .about_item-icon-div {
-    display: flex;
-  }
 }
 
 .about-svg {
 }
 
-/* .about-item:not(:last-child) {
+.about-item:not(:last-child) {
   margin-right: 24px;
-} */
+}
 
 .about-text {
-  /* height: 72px; */
+  height: 72px;
 }
 
 /*-------------------section3 What are we doing--------------------------*/
 .wedoing {
-  display: none;
   padding-bottom: 120px;
 }
 .div-wedoing {
@@ -484,7 +397,6 @@ nav {
 }
 .div-ourteam .list-ourteam {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .ourteam-list-item {
@@ -565,7 +477,6 @@ nav {
 /* -------------------section5  Customers -------------- */
 
 .sectoin-customers {
-  display: none;
   padding: 120px 0;
 }
 .customers-div {
@@ -613,7 +524,6 @@ nav {
 }
 /*---------------------------- footer -------------------------------------------------------------------------------------*/
 .footer {
-  display: none;
   background-color: var(--header-color);
   padding-top: 100px;
   padding-bottom: 100px;

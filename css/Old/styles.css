@@ -1,0 +1,122 @@
+:root {
+  --background-color: #ffffff;
+  --color-btn-hero: #ffffff;
+  --logocolor-left: #4d5ae5;
+  --body-color: #434455;
+
+  --logocolor-right: #2e2f42;
+  --header-color: #2e2f42;
+  --text-color-active-link: #4d5ae5;
+  --color-btn-hero-active: #404bbf;
+
+  --background-color-btn-hero: #4d5ae5;
+  --background-color-btn-hero-active: #404bbf;
+  --background-color-ourteam: #f4f4fd;
+  --logocolor-right-footer: #f4f4fd;
+  --footer-paragraf-color: #f4f4fd;
+  --background-color-hero: #2e2f42;
+  --color-herotitle: #ffffff;
+  --heder-portfolio-color: #2e2f42;
+  --color-btn-primari: #f4f4fd;
+  --color-focus-mod: #4d5ae5;
+  --color-link-mod: #4d5ae5;
+  --color-label-mod: #8e8f99;
+  --background-btn-primary: #4d5ae5;
+  --color-btn-secondary: #ffffff;
+  --background-btn-secondary: #4d5ae5;
+  --color-border-hader: #e7e9fc;
+  --fill-social-icon: #f4f4fd;
+
+  --background-color-social: #4d5ae5;
+  --color-social-icon: #f4f4fd;
+  --background-color-social-activ: #404bbf;
+  --background-color-social-footer-activ: #31d0aa;
+  --background-color-customers: #8e8f99;
+
+  /* Ocean 404bbf; */
+  --background-color-customers-activ: #404bbf;
+  /* ACCENT #e7e9fc */
+  --background-color-btn-close: #e7e9fc;
+  /* NaviBlu#2e2f42; */
+  --background-color-btn-close-activ: #2e2f42;
+  --backgroun-modal: #fcfcfc;
+
+  --anim-fast: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --anim-slow: 1250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  --header-idx: 10;
+  --modal-idx: 100;
+}
+
+body {
+  margin: 0;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5; /* or 150% */
+  letter-spacing: 0.02em;
+
+  /*#ffffff;*/
+  background-color: var(--background-color);
+  /*#434455; SLATE */
+  color: var(--body-color);
+}
+.container {
+  max-width: 428px;
+  min-width: 395px;
+  padding: 0 16px 0 16px;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  /*cкриваємо правильно заголовки*/
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.link {
+  /*#434455; */
+  color: var(--body-color);
+  /* убираємо підкреслення з ссилок */
+  text-decoration: none;
+}
+
+.list {
+  /* крапки списків */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header-logo {
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 22px;
+
+  /* display: block; */
+  /* #4d5ae5;*/
+  color: var(--logocolor-left);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-right {
+  /*#2e2f42*/
+  color: var(--logocolor-right);
+}
+
+.header-btn-menu {
+  display: inline-block;
+}
