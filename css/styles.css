@@ -804,14 +804,38 @@ letter-spacing: 0.02em; */
   display: block;
 }
 
+@media only screen and (min-width: 768px) {
+  .footer-div {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .footer-div {
+    gap: 0;
+  }
+}
 .footerleft-div {
   margin: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .footerleft-div {
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .footerleft-div {
+    margin-right: 120px;
+  }
 }
 
 .footer-logo {
   display: block;
   text-align: center;
-
   /*  display: inline-block;*/
   color: var(--logocolor-left); /* #4d5ae5;*/
   font-family: 'Raleway', sans-serif;
@@ -822,6 +846,12 @@ letter-spacing: 0.02em; */
   text-transform: uppercase;
 
   /* margin-bottom: 16px; */
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-logo {
+    text-align: left;
+  }
 }
 
 .logo-right-footer {
@@ -837,10 +867,29 @@ letter-spacing: 0.02em; */
   letter-spacing: 0.02em;
   color: var(--footer-paragraf-color); /*#f4f4fd;*/
 }
+
+@media only screen and (min-width: 768px) {
+  .footer-paragraph {
+    margin: 0;
+  }
+}
 .footer-social-div {
   margin: 0 auto;
   /* margin-bottom: 72%; */
   max-width: 208px;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-social-div {
+    margin: 0;
+    /* gap: 24px; */
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-social-div {
+    margin-right: 80px;
+  }
 }
 .footer-socialnet-list {
   max-width: 208px;
@@ -870,6 +919,11 @@ letter-spacing: 0.02em; */
   letter-spacing: 0.02em;
   color: var(--color-herotitle);
 }
+@media only screen and (min-width: 768px) {
+  .footer-social-paragraph {
+    padding-top: 0;
+  }
+}
 
 .footer-email {
   display: block;
@@ -879,8 +933,7 @@ letter-spacing: 0.02em; */
 .div-footer-email {
   display: block;
   width: 100%;
-  outline: 1px solid red;
-  /* padding-left: calc((100% - 165px) / 2); */
+  /* outline: 1px solid red; */
 }
 
 @media only screen and (min-width: 768px) {
@@ -1013,21 +1066,6 @@ letter-spacing: 0.02em; */
   position: relative;
   overflow: hidden;
 }
-
-/* .works-overlay {
-  padding-top: 40px;
-  padding-left: 32px;
-  padding-right: 32px;
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  width: 100%;
-  height: 100%;
-  background-color: var(--background-btn-primary);
-  transform: translateY(100%);
-  transition: transform var(--anim-fast);
-} */
 
 .works-overlay-txt {
   position: absolute;
