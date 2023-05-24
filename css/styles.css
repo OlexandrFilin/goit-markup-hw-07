@@ -1432,7 +1432,7 @@ letter-spacing: 0.02em; */
   left: 0;
   height: 428px;
   width: 100vw;
-  height: 100vh;
+  height: 110vh;
   padding: 40px 0 40px 40px;
 
   /* background-color: #3f51b5; */
@@ -1513,11 +1513,17 @@ text-transform: capitalize;  */
   height: 8px;
   stroke: #2e2f42;
 }
+.mob-menu-div {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .mobile-menu {
   padding: 0;
   margin: 0;
-  margin-bottom: 284px;
+  margin-bottom: 40px;
 }
 
 .mobile-menu .link {
@@ -1560,12 +1566,6 @@ text-transform: capitalize;  */
 
 .menu-container .footer-socialnet-list {
   padding-top: 8px;
-}
-
-.mob-menu-div {
-  display: flex;
-  flex-direction: column;
-  /* justify-content: space-between; */
 }
 
 @media only screen and (max-width: 367px) {
