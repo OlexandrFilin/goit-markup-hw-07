@@ -53,7 +53,7 @@
 
   --header-idx: 10;
   --modal-idx: 100;
-  --brpoint-desk: 1158;
+  --brpoint-desk: 1158px;
 }
 
 /* *,
@@ -113,7 +113,7 @@ body {
   }
 }
 
-@media screen and (min-width: var(--brpoint-desk)) {
+@media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
     min-width: 1128px;
@@ -180,7 +180,7 @@ body {
   text-transform: uppercase;
 }
 
-@media only screen and (min-width: var(--brpoint-desk)) {
+@media only screen and (min-width: 1158px) {
   .header-logo {
     margin-right: 76px;
   }
@@ -224,7 +224,7 @@ body {
   }
 }
 
-@media only screen and (min-width: var(--brpoint-desk)) {
+@media only screen and (min-width: 1158px) {
   .nav-header {
     margin-right: 332px;
   }
@@ -298,7 +298,7 @@ nav {
   font-size: 12px;
 }
 
-@media only screen and (min-width: var(--brpoint-desk)) {
+@media only screen and (min-width: 1158px) {
   .address-list {
     display: flex;
     font-size: 16px;
@@ -401,7 +401,7 @@ nav {
   }
 }
 
-@media only screen and (min-width: var(--brpoint-desk)) {
+@media only screen and (min-width: 1158px) {
   .hero {
     max-width: 1440px;
     padding-top: 188px;
@@ -450,7 +450,8 @@ nav {
 letter-spacing: 0.02em; */
   }
 }
-@media only screen and (min-width: var(--brpoint-desk)) {
+/*@media only screen and (min-width: var(--brpoint-desk)) {*/
+@media only screen and (min-width: 1158px) {
   .hero-title {
     max-width: 1440px;
     margin: 0 auto 48px auto;
@@ -519,7 +520,7 @@ letter-spacing: 0.02em; */
   }
 }
 
-@media only screen and (min-width: var(--brpoint-desk)) {
+@media only screen and (min-width: 1158px) {
   .header-three-stwoo {
     /* height: 24px; */
 
@@ -547,7 +548,7 @@ letter-spacing: 0.02em; */
   padding-bottom: 96px;
 }
 
-@media only screen and (min-width: var(--brpoint-desk)) {
+@media only screen and (min-width: 1158px) {
   .list-about {
     /* margin-bottom: 120px; */
     padding-bottom: 120px;
@@ -568,7 +569,7 @@ letter-spacing: 0.02em; */
     --indents-amount: 2;
   }
 }
-@media only screen and (min-width: var(--brpoint-desk)) {
+@media only screen and (min-width: 1158px) {
   .about-item {
     --indents-amount: 4;
   }
@@ -585,7 +586,7 @@ letter-spacing: 0.02em; */
   row-gap: 72px;
   column-gap: 24px;
 }
-@media only screen and (min-width: var(--brpoint-desk)) {
+@media only screen and (min-width: 1158px) {
   .about_item-icon-div {
     display: flex;
   }
@@ -608,7 +609,7 @@ letter-spacing: 0.02em; */
   padding-bottom: 120px;
 }
 
-@media only screen and (min-width: var(--brpoint-desk)) {
+@media only screen and (min-width: 1158px) {
   .wedoing {
     display: block;
   }
@@ -631,7 +632,7 @@ letter-spacing: 0.02em; */
   padding-top: 96px;
   padding-bottom: 96px;
 }
-@media only screen and (min-width: var(--brpoint-desk)) {
+@media only screen and (min-width: 1158px) {
   .section-ourteam {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -736,7 +737,7 @@ letter-spacing: 0.02em; */
 .sectoin-customers {
   padding: 96px 0;
 }
-@media only screen and (min-width: var(--brpoint-desk)) {
+@media only screen and (min-width: 1158px) {
   .sectoin-customers {
     padding: 120px 0;
   }
@@ -772,7 +773,7 @@ letter-spacing: 0.02em; */
   }
 }
 
-@media only screen and (min-width: var(--brpoint-desk)) {
+@media only screen and (min-width: 1158px) {
   .customers-item {
     width: calc((100% - 120px) / 6);
   }
@@ -817,7 +818,7 @@ letter-spacing: 0.02em; */
   padding-left: 108px; */
 }
 
-@media only screen and (min-width: var(--brpoint-desk)) {
+@media only screen and (min-width: 1158px) {
   .footer {
     /* padding-top: 100px;
     padding-bottom: 100px; */
@@ -843,7 +844,7 @@ letter-spacing: 0.02em; */
   }
 }
 
-@media only screen and (min-width: var(--brpoint-desk)) {
+@media only screen and (min-width: 1158px) {
   .footer-div {
     gap: 0;
   }
@@ -857,7 +858,7 @@ letter-spacing: 0.02em; */
     margin: 0;
   }
 }
-@media only screen and (min-width: var(--brpoint-desk)) {
+@media only screen and (min-width: 1158px) {
   .footerleft-div {
     margin-right: 120px;
   }
@@ -1062,7 +1063,7 @@ letter-spacing: 0.02em; */
   }
 }
 
-@media only screen and (min-width: var(--brpoint-desk)) {
+@media only screen and (min-width: 1158px) {
   .list-btnfiltr {
     margin-bottom: 72px;
   }
