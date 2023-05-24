@@ -40,31 +40,21 @@
                 class="header-icon"
                 href="./images/icons.svg#hamburger"
               ></use>
-              <!-- <path
-              fill-rule="evenodd"
-              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-              clip-rule="evenodd"
-            ></path> -->
             </svg>
           </button>
-
-          <!-- list -->
-          <!-- <div class="header-nav-div"> -->
           <ul class="list-nav list">
-            <!-- <ul >  -->
             <li class="item-nav">
-              <a href="./index.html" class="link-header link header-activ"
+              <a href="./index.html" class="link-header link"
                 >Studio</a
               >
             </li>
             <li class="item-nav">
-              <a href="./portfolio.html" class="link-header link">Portfolio</a>
+              <a href="./portfolio.html" class="link-header link header-activ">Portfolio</a>
             </li>
             <li class="item-nav">
               <a href="" class="link-header link">Contacts</a>
             </li>
           </ul>
-          <!-- </div> -->
         </nav>
         <address class="address">
           <ul class="address-list list">
@@ -81,7 +71,6 @@
           </ul>
         </address>
       </div>
-      <!-- </div> -->
     </header>
     <main>
       <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!section works !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
@@ -439,5 +428,207 @@
         </form>
       </div>
     </footer>
+
+      <!--!!!!!!!!!!!!!!!!!!!MODAL WINDOW"!!!!!!!!!!!!!!!! modal window !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button type="button" class="close-modwin-btn" data-modal-close>
+            <svg class="close-modwin-icon" width="8" height="8">
+              <use href="./images/icons.svg#close-btn"></use>
+            </svg>
+          </button>
+          <!-- <fieldset>
+            <legend>Leave your contacts and we will call you back</legend> -->
+          <strong class="mod-title"
+            >Leave your contacts and we will call you back</strong
+          >
+          <form name="subscreibe_mod">
+            <label class="name-mod-label mod-label" for="name-mod">Name</label>
+  
+            <div class="wrap-div-iconsvg">
+              <input
+                class="name-mod-inp mod-inp"
+                type="text"
+                name="name-mod"
+                id="name-mod"
+                autofocus
+              />
+              <svg class="mod-svg-person mod-svg" height="18" width="18">
+                <use
+                  href="./images/icons.svg#person"
+                  class="mod-icon-person"
+                ></use>
+              </svg>
+            </div>
+  
+            <label class="tel-mod-label mod-label" for="tel-mod">Phone</label>
+            <div class="wrap-div-iconsvg">
+              <input
+                class="tel-mod mod-inp"
+                type="tel"
+                name="tel-mod"
+                id="tel-mod"
+              />
+              <svg class="mod-svg-tel mod-svg" height="24" width="18">
+                <use href="./images/icons.svg#phone" class="mod-icon-phone"></use>
+              </svg>
+            </div>
+  
+            <label class="email-mod-label mod-label" for="email-mod">Email</label>
+            <div class="wrap-div-iconsvg">
+              <input class="email-mod mod-inp" type="email" id="email-mod" />
+              <svg class="mod-svg-mail mod-svg" height="24" width="18">
+                <use href="./images/icons.svg#email" class="mod-icon-email"></use>
+              </svg>
+            </div>
+            <label class="comment-mod-label mod-label" for="comment"
+              >Comment</label
+            >
+            <textarea
+              class="mod-txtar-com mod-inp"
+              name="comment-mod"
+              id="comment"
+              cols="30"
+              rows="10"
+              placeholder="Text input"
+            ></textarea>
+            <!-- visually-hidden -->
+            <label class="agr-mod-label">
+              <input
+                class="agr-mod-check visually-hidden"
+                type="checkbox"
+                name="agr_policy"
+                id="agr_policy"
+              />
+              <svg class="check-svg-mod" width="16" height="16">
+                <use
+                  class="check-icon-act-mod"
+                  href="./images/icons.svg#check_activ"
+                ></use>
+                <use
+                  class="check-icon-noact-mod"
+                  href="./images/icons.svg#check_no_activ"
+                ></use>
+              </svg>
+              I accept the terms and conditions of the&nbsp;
+              <span><a class="mod-link link" href="">Privacy Policy</a></span>
+            </label>
+            <button type="submit" class="btn-hero" data-modal-open>Send</button>
+          </form>
+          <!-- </fieldset> -->
+        </div>
+      </div>
+  
+      <!--!!!!!!!!!!!!!!!!! mobile menu !!!!!!!!!!!!!!!!!!!!!!-->
+      <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="menu-toggle cross js-close-menu">
+          <svg class="cross-mommenu-svg" width="8" height="8">
+            <use class="cross-mommenu-icon" href="./images/icons.svg#close"></use>
+          </svg>
+        </button>
+  
+        <!-- <div class="mob-menu-div"> -->
+        <ul class="mobile-menu list">
+          <li class="mob-link-item">
+            <a href="./index.html"  class="mob-link-menu link">Studio</a>
+          </li>
+          <li class="mob-link-item">
+            <a href="./portfolio.html" class="mob-link-menu link header-activ">Portfolio</a>
+          </li> 
+          <li class="mob-link-item">
+            <a href="" class="mob-link-menu link">Contacts</a>
+          </li>
+        </ul>
+        <ul class="addr-mob-menu list">
+          <li class="addr-item">
+            <a href="tel:+110001111111" class="link-tel-mob link"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li class="addr-item">
+            <a href="mailto:info@devstudio.com" class="link-email-mob link"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <!-- </div> -->
+        <!-- !!!!!!!!!!!-ПОЧАТОК контактів  соц мережах для меню мобилки !!!!!!!!!!!!!!!!! -->
+        <ul class="mob-socialnet-list list">
+          <!-- <ul class="footer-socialnet-list list"></ul>  -->
+          <li class="socialnet-item">
+            <a
+              href="https://www.instagram.com/"
+              class="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="socialnet-svg" width="24" height="24">
+                <use
+                  class="socialnet-icon"
+                  href="./images/icons.svg#instagram"
+                ></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socialnet-item">
+            <a
+              href="https://www.twitter.com/"
+              class="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="socialnet-svg" width="24" height="24">
+                <use
+                  class="socialnet-icon"
+                  href="./images/icons.svg#twitter"
+                ></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socialnet-item">
+            <a
+              href="https://www.facebook.com/"
+              class="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="socialnet-svg" width="24" height="24">
+                <use
+                  class="socialnet-icon"
+                  href="./images/icons.svg#facebook"
+                ></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socialnet-item">
+            <a
+              href="https://www.linkedin.com/"
+              class="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="socialnet-svg" width="24" height="24">
+                <use
+                  class="socialnet-icon"
+                  href="./images/icons.svg#linkedin"
+                ></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+     <!-- !!!!!!!!!!! КІНЕЦЬ контактів в   соц мережах для футера!!!!!!!!!!!!!!!!! -->
+
+    <!-- !!!!! JavaScript !!!!!!!! -->
+    <script src="./js/modal.js"></script>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
+  </body>
   </body>
 </html>
