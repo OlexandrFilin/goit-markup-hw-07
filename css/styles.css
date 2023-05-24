@@ -1577,3 +1577,8 @@ text-transform: capitalize;  */
   display: flex;
   gap: 56px;
 }
+@media only screen and (max-width: 369px) {
+  .mob-socialnet-list {
+    gap: calc((100% - 160px) / 3);
+  }
+}
