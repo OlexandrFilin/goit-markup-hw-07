@@ -165,10 +165,17 @@ body {
 .header-div.container {
   /* background-color: rgb(203, 212, 209);   */
 }
+@media only screen and (min-width: 1158px) {
+  .header-div.container {
+    margin: 0 auto;
+    padding-left: 0;
+  }
+}
 
 .header-logo {
   display: block;
   margin-right: 120px;
+
   padding-top: 26px;
   padding-bottom: 26px;
 
@@ -180,10 +187,15 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
+@media only screen and (min-width: 768px) {
+  .header-logo {
+    margin-left: 16px;
+  }
+}
 @media only screen and (min-width: 1158px) {
   .header-logo {
     margin-right: 76px;
+    margin-left: 0;
   }
 }
 
@@ -354,7 +366,7 @@ nav {
 
 @media only screen and (min-width: 429px) {
   .hero {
-    max-width: 1157px;
+    max-width: 768px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -498,7 +510,6 @@ letter-spacing: 0.02em; */
 }
 /* --------------------------section2 Features---------------------------------- */
 .about {
-  /* padding: 120px 0; */
   padding-top: 96px;
 }
 .div-about {
@@ -746,7 +757,7 @@ letter-spacing: 0.02em; */
 }
 
 .customers-div {
-  width: 552px;
+  max-width: 552px;
 }
 .header-customers {
   margin-bottom: 72px;
@@ -836,7 +847,7 @@ letter-spacing: 0.02em; */
 } */
 .footer-div {
   display: block;
-  width: 552px;
+  max-width: 552px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -1396,7 +1407,7 @@ letter-spacing: 0.02em; */
   user-select: none;
 }
 
-@media only screen and (max-width: 367px) {
+@media only screen and (max-width: 392px) {
   .agr-mod-label {
     font-size: 9px;
   }
@@ -1535,6 +1546,12 @@ letter-spacing: 0.02em; */
 
 .link-tel-mob {
   /* color: #4d5ae5; */
+}
+
+@media only screen and (max-width: 396px) {
+  .link-tel-mob {
+    font-size: 28px;
+  }
 }
 
 .link-tel-mob:hover,
