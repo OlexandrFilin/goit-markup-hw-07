@@ -936,7 +936,7 @@ letter-spacing: 0.02em; */
 
 @media only screen and (min-width: 768px) {
   .footer-social-div {
-    /* margin-right: 80px; */
+    margin-right: auto;
   }
 }
 .footer-socialnet-list {
@@ -970,6 +970,7 @@ letter-spacing: 0.02em; */
 @media only screen and (min-width: 768px) {
   .footer-social-paragraph {
     padding-top: 0;
+    text-align: left;
   }
 }
 
