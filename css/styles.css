@@ -566,8 +566,7 @@ letter-spacing: 0.02em; */
 @media only screen and (min-width: 1158px) {
   .list-about {
     max-width: 1128px;
-    /* margin-bottom: 120px; */
-    padding-bottom: 120px;
+    margin-bottom: 120px;
   }
 }
 .about-item {
@@ -622,7 +621,7 @@ letter-spacing: 0.02em; */
 /*-------------------section3 What are we doing--------------------------*/
 .wedoing {
   display: none;
-  padding-bottom: 120px;
+  margin-bottom: 120px;
 }
 
 @media only screen and (min-width: 1158px) {
@@ -650,7 +649,7 @@ letter-spacing: 0.02em; */
 }
 @media only screen and (min-width: 1158px) {
   .section-ourteam {
-    padding-top: 120px;
+    /* padding-top: 120px; */
     padding-bottom: 120px;
   }
 }
