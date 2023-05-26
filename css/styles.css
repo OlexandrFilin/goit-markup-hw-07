@@ -552,13 +552,15 @@ letter-spacing: 0.02em; */
   letter-spacing: 0.02em;
 }
 .list-about {
+  margin: auto;
+  max-width: 736px;
   display: flex;
   flex-wrap: wrap;
   row-gap: var(--indents-vertic);
   column-gap: var(--indents-gorizont);
-  width: 100%;
-  /* margin-bottom: 96px; */
-  padding-bottom: 96px;
+  /* width: 100%; */
+  margin-bottom: 96px;
+  /*padding-bottom: 96px;*/
 }
 
 @media only screen and (min-width: 1158px) {
